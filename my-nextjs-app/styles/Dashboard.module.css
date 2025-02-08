@@ -1,0 +1,74 @@
+/* filepath: /styles/Dashboard.module.css */
+.container {
+  padding: 20px;
+  background-color: cyan;
+  min-height: 100vh;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+.formContainer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer form div {
+  margin-bottom: 10px;
+}
+
+.formContainer form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formContainer form input,
+.formContainer form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.formContainer form button {
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.formContainer form button:hover {
+  background-color: #005bb5;
+}
+
+.note {
+  background-color: yellow;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note h3 {
+  margin: 0 0 10px 0;
+}
+
+.note p {
+  margin: 0 0 10px 0;
+}
+
+.note button {
+  margin-right: 10px;
+}
